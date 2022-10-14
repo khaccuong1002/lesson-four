@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7f23b9-0b0e-4634-a4b1-a380e0c08b5c" name="Changes" comment="" />
+    <list default="true" id="0f7f23b9-0b0e-4634-a4b1-a380e0c08b5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/currency.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,6 +66,7 @@
       <workItem from="1665452226522" duration="9581000" />
       <workItem from="1665623939573" duration="2226000" />
       <workItem from="1665626522134" duration="11017000" />
+      <workItem from="1665713864100" duration="6781000" />
     </task>
     <servers />
   </component>
