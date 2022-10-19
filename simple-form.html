@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+    <style>
+        form {
+            width: 35%;
+            height: 420px;
+            background: #BABF7C;
+            justify-content: space-between;
+            position: absolute;
+            padding: 5px 10px 5px 10px;
+        }
+
+    </style>
+</head>
+<body>
+<!--/* Bài 1 */-->
+<!--<form>-->
+<!--    <h3 style="background: orange; color: white">SỞ THÍCH CỦA BẠN</h3>-->
+<!--    <lable>Họ và tên</lable>-->
+<!--    <input type="text" name="yourname">-->
+<!--    <br>-->
+<!--    <lable>Email</lable>-->
+<!--    <input type="text" name="email">-->
+<!--    <br>-->
+<!--    <div class="chil">-->
+<!--        <label>Sở thích</label>-->
+<!--        <input type="checkbox" name="sports">Thể thao-->
+<!--        <input type="checkbox" name="music"> Âm nhạc-->
+<!--        <input type="checkbox" name="readbook"> Đọc Sách-->
+<!--        <br>-->
+<!--        <input type="checkbox" name="web"> Lướt web-->
+<!--        <input type="checkbox" name="playgame"> Chơi game-->
+<!--        <input type="checkbox" name="film"> Điện ảnh-->
+<!--        <br>-->
+<!--        <input type="checkbox" name="travel"> Du lịch-->
+<!--    </div>-->
+<!--    <br>-->
+<!--    <input type="submit" value="Gửi thông tin">-->
+<!--    <input type="reset" value="Nhập lại">-->
+<!--</form>-->
+
+<!--/* Bài 2 */-->
+<form>
+    <h3 style="background: aqua; color: blue">ĐĂNG KÝ HỌC VIÊN</h3>
+    <label for="name">Họ và tên</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="birth">Ngày sinh</label>
+    <input type="text" id="birth">
+    <br>
+    <br>
+    <label for="male" for="female">Giới tính</label>
+    <input type="radio" id="male">Nam
+    <input type="radio" id="female">Nữ
+    <br>
+    <br>
+    <label for="address">Địa chỉ</label>
+    <input type="text" style="height: 60px; width: 160px" id="address">
+    <br>
+    <br>
+    <label for="class">Lớp</label>
+    <select style="height: 25px; width: 100px" id="class">
+        <option>-Chọn lớp-</option>
+    </select>
+    <br>
+    <br>
+    <label for="mail">Email</label>
+    <input type="text" id="mail">
+    <br>
+    <br>
+    <label for="phone">Điện thoại</label>
+    <input type="text" id="phone">
+    <br>
+    <br>
+    <input type="submit" value="Đăng ký">
+    <input type="reset" value="nhập lại">
+</form>
+</body>
+</html>
